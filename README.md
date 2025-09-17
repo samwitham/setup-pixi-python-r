@@ -105,7 +105,7 @@ Use pixi global for tools you want available system-wide:
 
 ```bash
 # Install global development tools
-pixi global install jupyter-client ruff pre-commit
+pixi global install jupyter_client ruff pre-commit
 ```
 
 ## 6. Configure Jupyter Kernels for Both Languages
