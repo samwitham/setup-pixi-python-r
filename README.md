@@ -123,7 +123,7 @@ exit  # Exit pixi shell
 
 ```bash
 # Configure Python kernel within the pixi environment
-pixi run python -m ipykernel install --user --name learn-python-r --display-name "Learn Python & R (Pixi)"
+pixi run python -m ipykernel install --user --name learn-python-r --display-name "Python (Pixi)"
 ```
 
 ## 7. Git Configuration
@@ -289,7 +289,7 @@ code .
 1. **Open Command Palette**: Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac)
 2. **Create New Jupyter Notebook**: Type "Jupyter: Create New Notebook" and select it
 3. **Select Kernel**: When prompted, choose either:
-   - "Learn Python & R (Pixi)" for the Python kernel
+   - "Python (Pixi)" for the Python kernel
    - Your R kernel for R development
 4. **Start coding**: You now have access to both Python and R with all installed packages
 
