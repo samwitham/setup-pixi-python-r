@@ -82,7 +82,7 @@ pixi project channel add bioconda
 
 ```bash
 # Enable post-link scripts for proper R package installation
-pixi config set --local run-post-link-scripts true
+pixi config set --local run-post-link-scripts insecure
 ```
 
 ## 5. Install Core Languages and Packages
