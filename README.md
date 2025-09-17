@@ -181,13 +181,6 @@ learn_python_r() {
 source ~/.bashrc
 ```
 
-### 8.2: Apply Configuration Changes
-
-```bash
-# Reload your shell configuration
-source ~/.zshrc  # or ~/.bashrc for bash users
-```
-
 ## 9. Start Your Learning Environment
 
 Now you can easily enter your configured environment:
