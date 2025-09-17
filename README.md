@@ -1,4 +1,4 @@
-## Setting Up Pixi Environment for Python and R Learning in WSL
+## Setting Up Pixi Environment for learning Python and R in WSL (Windows Subsystem for Linux)
 
 ## 1. System Prerequisites and Package Installation
 
