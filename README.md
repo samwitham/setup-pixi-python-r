@@ -142,10 +142,11 @@ Instead of a custom function, use pixi's built-in shell-hook for better integrat
 
 ### 8.1: Add Activation Function to Shell Configuration
 
-**For Zsh users, add to ~/.zshrc:**
+To automatically add the environment activation function to the end of your `.zshrc`, run this command in your terminal:
 
 ```bash
-# Pixi environment activation function
+echo '
+# Pixi environment activation function for learn_python_r
 learn_python_r() {
     if [ -d ~/pixi_envs/learn_python_r ]; then
         cd ~/pixi_envs/learn_python_r
@@ -154,12 +155,20 @@ learn_python_r() {
         echo "learn_python_r environment directory not found"
     fi
 }
+' >> ~/.zshrc
 ```
 
-**For Bash users, add to ~/.bashrc:**
+Then, reload your shell configuration to activate the function:
 
 ```bash
-# Pixi environment activation function
+source ~/.zshrc
+```
+
+**For Bash users**, use the same approach but append to `~/.bashrc` instead:
+
+```bash
+echo '
+# Pixi environment activation function for learn_python_r
 learn_python_r() {
     if [ -d ~/pixi_envs/learn_python_r ]; then
         cd ~/pixi_envs/learn_python_r
@@ -168,6 +177,8 @@ learn_python_r() {
         echo "learn_python_r environment directory not found"
     fi
 }
+' >> ~/.bashrc
+source ~/.bashrc
 ```
 
 ### 8.2: Apply Configuration Changes
