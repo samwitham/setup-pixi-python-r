@@ -11,7 +11,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 # Install git and development dependencies
 sudo apt-get install -y git curl wget build-essential procps apt-utils \
     libgsl-dev locales libicu-dev libcurl4-openssl-dev \
-    libnode-dev libxml2-dev make pandoc ca-certificates
+    libnode-dev libxml2-dev make pandoc ca-certificates zsh
 
 # Clean up package cache
 sudo apt-get clean && sudo rm -rf /var/lib/apt/lists/*
